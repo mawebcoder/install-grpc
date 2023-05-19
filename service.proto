@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package messaging;
+
+option php_namespace = "GRPC";
+
+message Message {
+    string id = 1;
+    string sender = 2;
+    string recipient = 3;
+    string body = 4;
+    int64 timestamp = 5;
+}
+
+message Conversation {
+    repeated Message messages = 1;
+}
+
+service MessagingService {
+    rpc SendMessage(Message) returns (Message) {}
+    rpc GetConversation(stream Message) returns (Conversation) {}
+}
