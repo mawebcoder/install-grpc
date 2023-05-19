@@ -24,7 +24,7 @@ but you need to set them in modules-available first
 # Clone Grpc repo to install grpc compiler
 
 ``` 
-$ git clone -b RELEASE_TAG_HERE https://github.com/grpc/grpc
+$ git clone -b v1.55.0 https://github.com/grpc/grpc
 $ cd grpc
 $ git submodule update --init
 $ mkdir -p cmake/build
