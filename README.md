@@ -38,7 +38,7 @@ $ make protoc grpc_php_plugin
 # Install packages in your Laravel Applications(Servers and Clients Sides Applications):
 
 ``` 
-composer require google/protobu
+composer require google/protobuf
 composer require spiral/goridge
 composer require spiral/roadrunner
 composer require spiral/roadrunner-grpc
