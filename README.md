@@ -35,7 +35,7 @@ $ cmake .
 $ make protoc grpc_php_plugin
 ```
 
-# Install packages in your Laravel Application:
+# Install packages in your Laravel Applications(Servers and Client Sides):
 
 ``` 
 composer require google/protobu
