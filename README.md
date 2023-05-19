@@ -7,7 +7,12 @@ sudo apt-get install php8.2-grpc
 ``` 
 sudo apt-get install php8.2-protobuf
 ```
+# Install Roadrunner with debian package:
 
+```
+wget https://github.com/roadrunner-server/roadrunner/releases/download/v2023.X.X/roadrunner-2023.X.X-linux-amd64.deb
+sudo dpkg -i roadrunner-2023.X.X-linux-amd64.deb
+```
 
 
 - you can install these extension with ``pecl`` but you need to enable extensions manually,
