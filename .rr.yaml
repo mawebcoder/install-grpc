@@ -1,0 +1,15 @@
+version: "3"
+
+version: "3"
+
+server:
+  command: "php worker.php"
+
+grpc:
+  listen: "tcp://127.0.0.1:9001"
+  proto: [ "service.proto" ]  # address of the proto files in array list
+  timeout: 10s
+  pool:
+    debug: true  #To restart server automatically if codes changed(in development mode must be true)
+
+
