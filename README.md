@@ -46,6 +46,7 @@ composer require google/protobuf
 composer require spiral/goridge
 composer require spiral/roadrunner
 composer require spiral/roadrunner-grpc
+composer require grpc/grpc
 ```
 
 # Run the server 
