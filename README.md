@@ -24,6 +24,8 @@ but you need to set them in modules-available first
 # Clone Grpc repo to install grpc compiler
 
 ``` 
+$ sudo apt-get update 
+$ sudo apt-get install cmake 
 $ git clone -b v1.55.0 https://github.com/grpc/grpc
 $ cd grpc
 $ git submodule update --init
