@@ -47,7 +47,7 @@ composer require spiral/roadrunner-grpc
 # Run the server 
 
 ``` 
-rr server -w ./ serve
+rr  -w ./ serve
 ```
 That run .rr.yaml file as server and watch to this directory to watch files changes 
 
