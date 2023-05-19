@@ -29,9 +29,8 @@ $ sudo apt-get install cmake
 $ git clone -b v1.55.0 https://github.com/grpc/grpc
 $ cd grpc
 $ git submodule update --init
-$ mkdir -p cmake/build
-$ cd cmake/build
-$ cmake ../..
+$
+$ cmake .
 $ make protoc grpc_php_plugin
 ```
 
