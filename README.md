@@ -62,4 +62,11 @@ That run .rr.yaml file as server and watch to this directory to watch files chan
 ``` 
  protoc --proto_path=./ --php_out=./ --grpc_out=./  --plugin=protoc-gen-grpc=/usr/local/bin/grpc/grpc_php_plugin service.proto
 ```
+If you do not want to create Client grpc code remove ``--grpc_out``` flag to create code just for server side.like so :
 
+```
+ protoc --proto_path=./ --php_out=./  --plugin=protoc-gen-grpc=/usr/local/bin/grpc/grpc_php_plugin service.proto
+
+```
+
+but proto file must be exists in both side(client and server side)
