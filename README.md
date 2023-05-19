@@ -49,6 +49,8 @@ composer require spiral/roadrunner-grpc
 ``` 
 rr  -w ./ serve
 ```
+
+- You need to run the server just on Server Side Laravel Application.
 That run .rr.yaml file as server and watch to this directory to watch files changes 
 
 # Create Required Files 
