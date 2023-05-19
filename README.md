@@ -7,6 +7,10 @@ sudo apt-get install php8.2-grpc
 ``` 
 sudo apt-get install php8.2-protobuf
 ```
+
+```
+sudo apt  install protobuf-compiler
+```
 # Install Roadrunner with debian package:
 
 ```
