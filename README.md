@@ -60,6 +60,6 @@ That run .rr.yaml file as server and watch to this directory to watch files chan
 # Create Required Files 
 
 ``` 
-protoc --proto_path=. --php_out=. --grpc_php_out=. --plugin=protoc-gen-grpc-php=/path/to/grpc_php_plugin service.proto
+ protoc --proto_path=./ --php_out=./ --grpc_out=./  --plugin=protoc-gen-grpc=/usr/local/bin/grpc/grpc_php_plugin service.proto
 ```
 
