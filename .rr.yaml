@@ -9,6 +9,6 @@ grpc:
   timeout: 10s
   pool:
     debug: true  #To restart server automatically if codes changed(in development mode must be true)
-  max_send_msg_size: 500
-  max_recv_msg_size: 500
+  max_send_msg_size: 500  #MB
+  max_recv_msg_size: 500  #MB
 
